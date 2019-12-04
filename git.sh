@@ -3,7 +3,6 @@
 #NOME DAS BRANCHS DE TRABALHO
 branch='master'
 
-
 git status
 
 echo "DESEJA CONTINUAR? [Ss,Nn] Padrao(S)"
@@ -37,7 +36,7 @@ case "$continuar" in
             ;;
             esac
         echo " "
-        echo "PROCESSO REALIZADO COM SUCESSO."
+        echo "PROCESSO REALIZADO COM SUCESSO!"
         
 ;;
 *)

@@ -29,7 +29,8 @@ case "$continuar" in
                 echo ""  
                 git checkout master
                 git pull origin master
-                git checkout $branch
+                #git checkout $branch
+                git push origin $branch
             ;;
             *)
                 echo "PROCESSO FINALIZADO - Ajuste os conflitos e realize o commit novamente."

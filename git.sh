@@ -14,9 +14,9 @@ case "$continuar" in
         echo 'MENSAGEM PARA COMMIT'
         read message
         git commit -m "$message"
-        git checkout master
+        #git checkout master
         git pull
-        git checkout $branch
+        #git checkout $branch
        # echo " "
         #echo "MERGE MASTER PARA BRANCH! "
         echo " "
@@ -27,7 +27,7 @@ case "$continuar" in
             n|N|"")  
                 echo "Git push PROJETOS"   
                 echo ""  
-                git checkout master
+                #git checkout master
                 git pull origin master
                 #git checkout $branch
                 git push origin $branch
